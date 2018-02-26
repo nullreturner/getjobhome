@@ -1,0 +1,16 @@
+$font-family-sans-serif: 'Source Sans Pro', sans-serif !default;
+$font-family-serif:      'Source Serif Pro', serif !default;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif !default;
+
+// Import custom variables (overrides Bootstrap default variables)
+@import "variables";
+
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Import custom styles
+@import "global";
+@import "navbar";
+@import "masthead";
+@import "portfolio";
